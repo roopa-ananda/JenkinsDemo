@@ -1,0 +1,13 @@
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\bin\Release\MyCalculatorVersion1.exe.config
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\bin\Release\MyCalculatorVersion1.exe
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\bin\Release\MyCalculatorVersion1.pdb
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\obj\Release\MainWindow.baml
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\obj\Release\MainWindow.g.cs
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\obj\Release\App.g.cs
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\obj\Release\MyCalculatorVersion1_MarkupCompile.cache
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\obj\Release\MyCalculatorVersion1.g.resources
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\obj\Release\MyCalculatorVersion1.Properties.Resources.resources
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\obj\Release\MyCalculatorVersion1.csproj.GenerateResource.Cache
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\obj\Release\MyCalculatorVersion1.exe
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\obj\Release\MyCalculatorVersion1.pdb
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorv1\obj\Release\MyCalculatorVersion1.csprojResolveAssemblyReference.cache

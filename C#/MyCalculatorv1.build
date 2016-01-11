@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<project name="Unit tests" default="run">
+<property name="namespace" value="MyCalculatorVersion1" />
+<property name="test.dir" value=".\UNITTESTS" />
+<property name="nant.settings.currentframework" value="net-4.0" overwrite="false"/>
+<property name="MSBuildPath" value="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe"/>
+  <property name="BuildConfiguration" value="Debug"/>
+  <property name="BuildPlatform" value="Any CPU"/>
+<property name="output.dir" value="c:\output" overwrite="false"/>
+<property name="fxcop.basedir" value="C:\Program Files (x86)\Microsoft FxCop 1.36" />
+<property name="fxcop.executable" value="${fxcop.basedir}\fxcopcmd.exe" overwrite="false"/>
+<property name="fxcop.template" value="${fxcop.basedir}\Template.FXCop" overwrite="false"/>
+<property name="fxcop.out" value="${output.dir}\${namespace}.fxCop.xml" overwrite="false"/> 
+<target name="compile">
+    <exec program="${MSBuildPath}">
+      <arg line='"${namespace}.sln"' />
+      <arg line="/p:Configuration=${BuildConfiguration}" />
+       <arg value="/p:Platform=${BuildPlatform}" />
+      </exec>
+  </target>
+<target name="move" description="moves the unittest dlls into a single common folder">
+<mkdir dir="${test.dir}" />
+<copy todir="${test.dir}" includeemptydirs="false" flatten="true">
+<fileset basedir="..\">
+<include name="**\*Test.dll" />
+</fileset>
+</copy>
+</target>
+<target name="test" depends="compile" description="Apply unit tests">
+<property name="nant.onfailure" value="fail.test"/>
+<nunit2>
+<formatter type="Xml" usefile="true" extension=".xml" outputdir="${output.dir}" />
+<test>
+<assemblies basedir="${test.dir}" >
+<include name="*Test.dll"/>
+</assemblies>
+</test>
+</nunit2>
+<property name="nant.onfailure" value="fail"/>
+</target>
+<target name="fail.test">
+<nunit2report out="${output.dir}\${namespace}.html" >
+<fileset>
+<include name="${output.dir}\*.dll-results.xml" />
+</fileset>
+</nunit2report>
+</target>
+<target name="cop">
+<echo message="Running FxCop Analysis"/>
+<exec program="${fxcop.executable}" commandline="/p:${fxcop.template} /f:${test.dir}\*.dll /o:${fxcop.out} /s" failonerror="false"/>
+
+</target>
+<target name="run" depends="compile, move, test">
+</target>
+</project>

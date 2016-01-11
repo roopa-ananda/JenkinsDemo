@@ -1,0 +1,7 @@
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorTest\bin\Release\MyCalculatorTest.dll
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorTest\bin\Release\MyCalculatorTest.pdb
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorTest\obj\Release\MyCalculatorTest.csprojResolveAssemblyReference.cache
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorTest\obj\Release\MyCalculatorTest.dll
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorTest\obj\Release\MyCalculatorTest.pdb
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorTest\bin\Release\MyCalculatorVersion1.exe
+C:\Users\Krithivasan\Documents\Visual Studio 2015\Projects\SimpleCalculator\C#\MyCalculatorTest\bin\Release\MyCalculatorVersion1.pdb
