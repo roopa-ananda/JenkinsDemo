@@ -13,8 +13,8 @@ namespace MyCalculatorVersion1.Tests
     public class MainWindowTests
     {
         BusinessLogic objWindow = new BusinessLogic();
-
-         [TestMethod()]
+        //BusiLog objWindow = new BusiLog();
+        [TestMethod()]
         public void FetchResultTestAdd()
         {
             double op1 = 9;
@@ -23,8 +23,20 @@ namespace MyCalculatorVersion1.Tests
             string result = objWindow.FetchResult("+", op1, op2);
 
             Assert.AreEqual("19", result);
-            
-            //Assert.Fail();
+
+            Assert.Fail();
         }
+
+        //[TestMethod()]
+        //public void FetchResultTestAdd()
+        //{
+        //    double op1 = 9;
+        //    double op2 = 10;
+
+        //    string result = objWindow.FetchResult("+", op1, op2);
+
+        //    Assert.Inconclusive("Just failed");
+
+        //}
     }
 }

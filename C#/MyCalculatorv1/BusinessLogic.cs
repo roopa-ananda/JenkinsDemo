@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyCalculatorVersion1
 {
+    //public class BusiLog
     public class BusinessLogic
     {
         /// <summary>
@@ -18,6 +19,7 @@ namespace MyCalculatorVersion1
         public string FetchResult(string op, double op1, double op2)
         {
             string result = string.Empty;
+            //string Output = string.Empty;
 
             if (op == "+")
             {
